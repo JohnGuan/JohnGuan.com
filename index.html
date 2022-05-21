@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
     <meta name="author" content="John Guan" />
     <meta name="description" content="JohnGuan.com'" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-touch-fullscreen" content="yes" />
     <title>JohnGuan</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -31,11 +33,17 @@
             }
         }
 
+        :root{
+            -app-height: 100%;
+        }
+
         body {
             font-family: "Josefin Sans", sans-serif;
             display: flex;
             flex-direction: column;
+            width: 100vw;
             height: 100vh;
+            height: var(-app-height);
             justify-content: center;
             align-items: center;
             margin: 0 0 0 0;
@@ -71,6 +79,7 @@
             0% {
                 opacity: 0.0;
             }
+
             100% {
                 opacity: 1.0;
             }
