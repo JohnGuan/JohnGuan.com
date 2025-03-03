@@ -3,14 +3,14 @@ import { defineConfig, presetIcons, presetTypography, presetWebFonts, presetWind
 export default defineConfig({
   presets: [
     presetWind3(),
+    presetTypography(),
+    presetIcons(),
     presetWebFonts({
       provider: 'bunny',
       fonts: {
         sans: 'Outfit',
       },
     }),
-    presetTypography(),
-    presetIcons(),
   ],
   transformers: [
     transformerDirectives(),
