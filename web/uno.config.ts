@@ -1,9 +1,15 @@
-import { defineConfig, presetAttributify, presetIcons, presetWind3, transformerDirectives } from 'unocss'
+import { defineConfig, presetIcons, presetTypography, presetWebFonts, presetWind3, transformerDirectives } from 'unocss'
 
 export default defineConfig({
   presets: [
     presetWind3(),
-    presetAttributify(),
+    presetWebFonts({
+      provider: 'bunny',
+      fonts: {
+        sans: 'Outfit',
+      },
+    }),
+    presetTypography(),
     presetIcons(),
   ],
   transformers: [
