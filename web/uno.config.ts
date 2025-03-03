@@ -8,7 +8,8 @@ export default defineConfig({
     presetWebFonts({
       provider: 'bunny',
       fonts: {
-        sans: 'Outfit',
+        'josefin-sans': 'Josefin Sans',
+        'sans': 'Outfit',
       },
     }),
   ],
