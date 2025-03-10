@@ -5,6 +5,10 @@
     },
   ],
   "settings": {
+      // ----------------- Vue Markdown Support -----------------
+      // https://vitepress.dev/guide/using-vue#vs-code-intellisense-support
+      "vue.server.includeLanguages": ["vue", "markdown"],
+      
       // ----------------- Antfu ESLint -----------------
 
       // Disable the default formatter, use eslint instead

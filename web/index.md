@@ -1,24 +1,21 @@
 ---
-# https://vitepress.dev/reference/default-theme-home-page
-layout: home
-
-hero:
-  name: "John Guan"
-  text: "Undefinable"
-  # tagline: Undefinable
-  actions:
-    - theme: brand
-      text: Markdown Examples
-      link: /markdown-examples
-    - theme: alt
-      text: API Examples
-      link: /api-examples
-
-# features:
-#   - title: Feature A
-#     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-#   - title: Feature B
-#     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-#   - title: Feature C
-#     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+layout: doc
+title: 管宁川 JohnGuan
+titleTemplate: "不可定义 Undefinable"
+navbar: false
+sidebar: false
+prev: false
+next: false
+footer: false
 ---
+
+<script setup lang="ts">
+import { useData } from 'vitepress'
+
+const { locales } = useData().site.value
+</script>
+
+# 管宁川<br>JohnGuan
+
+- [中文](/zh/)
+- [English](/en/)
