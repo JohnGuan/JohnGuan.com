@@ -4,7 +4,7 @@ import DefaultTheme from 'vitepress/theme'
 import { watchEffect } from 'vue'
 import JohnGuanHero from './components/JohnGuanHero.vue'
 
-const { localeIndex } = useData()
+const { localeIndex, site } = useData()
 
 watchEffect(() => {
   if (inBrowser) {
@@ -14,8 +14,10 @@ watchEffect(() => {
       if (!savedLocale) {
         savedLocale = navigator.language.split('-')[0]
       }
-      // Redirect to the saved locale or the browser's locale
-      document.location.href = `/${savedLocale}/`
+      // Redirect to the locale if it exists in the site locales
+      if (Object.keys(site.value.locales).includes(savedLocale)) {
+        document.location.href = `/${savedLocale}/`
+      }
     }
     else {
       // Save the locale when it's changed
