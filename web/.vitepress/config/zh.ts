@@ -2,11 +2,11 @@ import { defineConfig } from 'vitepress'
 
 export const zh = defineConfig({
   lang: 'zh-CN',
-  title: '管宁川',
-  description: '不可定义',
+  title: '管宁川 John',
+  // description: '不可定义',
   themeConfig: {
     nav: [
-      { text: '主页', link: '/zh' },
+      { text: '主页', link: '/zh/' },
       { text: '示例', link: '/zh/markdown-examples' },
     ],
 

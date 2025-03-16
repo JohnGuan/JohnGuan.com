@@ -3,16 +3,16 @@
 layout: home
 
 hero:
-  name: "管宁川 John Guan"
-  text: "不可定义"
+  name: "管宁川 John"
+  # text: "不可定义"
   # tagline: Undefinable
   actions:
     - theme: brand
       text: Markdown 示例
-      link: /markdown-examples
+      link: /zh/markdown-examples
     - theme: alt
       text: API 示例
-      link: /api-examples
+      link: /zh/api-examples
 
 # features:
 #   - title: Feature A

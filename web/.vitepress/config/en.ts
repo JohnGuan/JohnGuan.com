@@ -2,11 +2,11 @@ import { defineConfig } from 'vitepress'
 
 export const en = defineConfig({
   lang: 'en-US',
-  title: 'JohnGuan',
-  description: 'Undefinable',
+  title: 'John Guan',
+  // description: 'Undefinable',
   themeConfig: {
     nav: [
-      { text: 'Home', link: '/en' },
+      { text: 'Home', link: '/en/' },
       { text: 'Examples', link: '/en/markdown-examples' },
     ],
 
@@ -26,7 +26,7 @@ export const en = defineConfig({
     ],
 
     footer: {
-      copyright: 'Copyright © 1996-present John Guan',
+      copyright: 'Copyright © 2025 John Guan (管宁川)',
     },
   },
 })
