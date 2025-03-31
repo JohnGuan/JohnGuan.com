@@ -8,6 +8,7 @@ export const en = defineConfig({
     nav: [
       { text: 'Home', link: '/en/' },
       { text: 'Examples', link: '/en/markdown-examples' },
+      { text: 'About', link: '/en/about/' },
     ],
 
     sidebar: [

@@ -71,6 +71,8 @@
       "Vue.volar",
       // UnoCSS
       "antfu.unocss",
+      // Iconify
+      "antfu.iconify",
       // ESLint
       "dbaeumer.vscode-eslint",
     ]

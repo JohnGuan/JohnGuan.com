@@ -8,6 +8,7 @@ export const zh = defineConfig({
     nav: [
       { text: '主页', link: '/zh/' },
       { text: '示例', link: '/zh/markdown-examples' },
+      { text: '关于', link: '/zh/about/' },
     ],
 
     sidebar: [

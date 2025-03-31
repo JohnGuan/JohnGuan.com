@@ -4,6 +4,7 @@ import { defineConfig } from 'vitepress'
 export const shared = defineConfig({
   title: 'JohnGuan',
   description: 'Undefinable',
+
   themeConfig: {
     nav: [
       { text: 'Home', link: '/' },

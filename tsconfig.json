@@ -9,7 +9,9 @@
   "include": [
     "web/**/*.ts",
     "web/**/*.vue",
-    "web/**/*.md"
+    // For whole project markdown not show error.
+    // But Vue only works in the web folder.
+    "**/*.md"
   ],
   "vueCompilerOptions": {
     // VitePress Markdown Vue support

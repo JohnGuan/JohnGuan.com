@@ -2,7 +2,7 @@
 import { inBrowser, useData } from 'vitepress'
 import DefaultTheme from 'vitepress/theme'
 import { watchEffect } from 'vue'
-import JohnGuanHero from './components/JohnGuanHero.vue'
+import HomeHeroImage from './components/HomeHeroImage.vue'
 
 const { localeIndex, site } = useData()
 
@@ -32,7 +32,7 @@ watchEffect(() => {
 <template>
   <DefaultTheme.Layout>
     <template #home-hero-image>
-      <JohnGuanHero />
+      <HomeHeroImage />
     </template>
   </DefaultTheme.Layout>
 </template>
