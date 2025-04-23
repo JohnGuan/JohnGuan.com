@@ -63,6 +63,8 @@
   },
   "extensions": {
     "recommendations": [
+      // Bun
+      "oven.bun-vscode",
       // NPM
       "idered.npm",
       // Markdown
