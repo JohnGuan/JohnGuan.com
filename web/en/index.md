@@ -14,11 +14,14 @@ hero:
     #   text: API Examples
     #   link: /en/api-examples
 
-# features:
-#   - title: Feature A
-#     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-#   - title: Feature B
-#     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-#   - title: Feature C
-#     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+features:
+  - icon: 🧭
+    title: Product Builder
+    details: Driving 0-to-1 product definition and execution
+  - icon: 🛠️
+    title: Technologist
+    details: Full-stack expertise across software and hardware
+  - icon: 📚
+    title: Lifelong Learner
+    details: Adapting fast and building cross-domain insight
 ---

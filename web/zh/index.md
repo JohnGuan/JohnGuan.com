@@ -14,11 +14,14 @@ hero:
     #   text: API 示例
     #   link: /zh/api-examples
 
-# features:
-#   - title: Feature A
-#     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-#   - title: Feature B
-#     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-#   - title: Feature C
-#     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+features:
+  - icon: 🧭
+    title: 产品人
+    details: 从 0 到 1 的产品定义与推进
+  - icon: 🛠️
+    title: 技术人
+    details: 跨越软硬件边界的全栈技术背景
+  - icon: 📚
+    title: 持续学习者
+    details: 快速掌握新领域并构建跨领域模型
 ---
