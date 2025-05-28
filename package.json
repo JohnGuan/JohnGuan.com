@@ -8,13 +8,14 @@
     "lint:fix": "eslint --fix"
   },
   "devDependencies": {
-    "@antfu/eslint-config": "^4.11.0",
-    "@unocss/eslint-plugin": "^66.1.0-beta.3",
-    "eslint": "^9.23.0",
+    "@antfu/eslint-config": "^4.13.2",
+    "@unocss/eslint-plugin": "^66.1.2",
+    "emoji-regex": "^10.4.0",
+    "eslint": "^9.27.0",
     "eslint-plugin-format": "^1.0.1",
     "unocss": "66.1.0-beta.8",
     "vitepress": "^1.6.3",
-    "vue": "^3.5.13",
-    "vue-tsc": "^2.2.8"
+    "vue": "^3.5.14",
+    "vue-tsc": "^2.2.10"
   }
 }

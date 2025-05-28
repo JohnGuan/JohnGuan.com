@@ -1,34 +1,36 @@
 import UnoCSS from 'unocss/vite'
 import { defineConfig } from 'vitepress'
+import emojiRegex from 'emoji-regex'
+
 
 export const shared = defineConfig({
-  title: 'JohnGuan',
-  description: 'Undefinable',
+  // title: 'JohnGuan',
+  // description: 'Undefinable',
 
-  themeConfig: {
-    nav: [
-      { text: 'Home', link: '/' },
-      { text: 'Examples', link: '/markdown-examples' },
-    ],
+  // themeConfig: {
+  //   nav: [
+  //     { text: 'Home', link: '/' },
+  //   ],
 
-    sidebar: [
-      {
-        text: 'Examples',
-        items: [
-          { text: 'Markdown Examples', link: '/markdown-examples' },
-          { text: 'Runtime API Examples', link: '/api-examples' },
-        ],
-      },
-    ],
+  //   socialLinks: [
+  //     { icon: 'github', link: 'https://github.com/JohnGuan' },
+  //     { icon: 'x', link: 'https://x.com/GuanNingchuan' },
+  //   ],
 
-    socialLinks: [
-      { icon: 'github', link: 'https://github.com/JohnGuan' },
-      { icon: 'x', link: 'https://x.com/GuanNingchuan' },
-    ],
+  //   footer: {
+  //     copyright: 'Copyright © 1996-present John Guan',
+  //   },
+  // },
 
-    footer: {
-      copyright: 'Copyright © 1996-present John Guan',
-    },
+  markdown:{
+    anchor:{
+      slugify: (str) => {
+        // Remove all emojis
+        str =  str.replace(emojiRegex(), '')
+
+        return str.trim()
+      }
+    }
   },
 
   vite: {

@@ -7,19 +7,19 @@ export const en = defineConfig({
   themeConfig: {
     nav: [
       { text: 'Home', link: '/en/' },
-      { text: 'Examples', link: '/en/markdown-examples' },
+      // { text: 'Examples', link: '/en/markdown-examples' },
       { text: 'About', link: '/en/about/' },
     ],
 
-    sidebar: [
-      {
-        text: 'Examples',
-        items: [
-          { text: 'Markdown Examples', link: '/en/markdown-examples' },
-          { text: 'Runtime API Examples', link: '/en/api-examples' },
-        ],
-      },
-    ],
+    // sidebar: [
+    //   {
+    //     text: 'Examples',
+    //     items: [
+    //       { text: 'Markdown Examples', link: '/en/markdown-examples' },
+    //       { text: 'Runtime API Examples', link: '/en/api-examples' },
+    //     ],
+    //   },
+    // ],
 
     socialLinks: [
       { icon: 'github', link: 'https://github.com/JohnGuan' },

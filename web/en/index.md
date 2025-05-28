@@ -8,11 +8,11 @@ hero:
   # tagline: Undefinable
   actions:
     - theme: brand
-      text: Markdown Examples
-      link: /en/markdown-examples
-    - theme: alt
-      text: API Examples
-      link: /en/api-examples
+      text: About Me
+      link: /en/about
+    # - theme: alt
+    #   text: API Examples
+    #   link: /en/api-examples
 
 # features:
 #   - title: Feature A

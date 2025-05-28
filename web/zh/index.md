@@ -8,11 +8,11 @@ hero:
   # tagline: Undefinable
   actions:
     - theme: brand
-      text: Markdown 示例
-      link: /zh/markdown-examples
-    - theme: alt
-      text: API 示例
-      link: /zh/api-examples
+      text: 关于我
+      link: /zh/about
+    # - theme: alt
+    #   text: API 示例
+    #   link: /zh/api-examples
 
 # features:
 #   - title: Feature A
