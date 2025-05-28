@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "lib": [
+      "ESNext",
+      "DOM",
+      "DOM.Iterable"
+    ]
+  },
+  "include": [
+    "web/**/*.ts",
+    "web/**/*.vue",
+    // For whole project markdown not show error.
+    // But Vue only works in the web folder.
+    "**/*.md"
+  ],
+  "vueCompilerOptions": {
+    // VitePress Markdown Vue support
+    // https://vitepress.dev/guide/using-vue#vs-code-intellisense-support
+    "vitePressExtensions": [".md"]
+  }
+}
