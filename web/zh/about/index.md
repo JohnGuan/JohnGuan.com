@@ -11,7 +11,9 @@ title: 关于
 
 ## 📌 简介
 
-管宁川（John Guan）
+![管宁川 (John Guan)](/images/about/johnguan.jpg){style="border-radius: 50%; width: 160px; height: 160px;"}
+
+管宁川 (John Guan) {style="font-size: 1.2em; font-weight: bold;"}
 
 产品人 / 技术人 / 持续学习者
 

@@ -9,7 +9,9 @@ next: false
 
 ## 📌 Introduction
 
-John Guan (管宁川)  
+![John Guan](/images/about/johnguan.jpg){style="border-radius: 50%; width: 160px; height: 160px;"}
+
+John Guan (管宁川)  {style="font-size: 1.2em; font-weight: bold;"}
 
 Product Builder / Technologist / Lifelong Learner
 
