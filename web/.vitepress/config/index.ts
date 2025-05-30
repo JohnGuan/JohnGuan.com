@@ -4,6 +4,7 @@ import { shared } from './shared'
 import { zh } from './zh'
 
 export default defineConfig({
+  description: '个人网站 | Personal Website',
   ...shared,
   locales: {
     zh: {

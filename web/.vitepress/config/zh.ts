@@ -3,25 +3,15 @@ import { defineConfig } from 'vitepress'
 export const zh = defineConfig({
   lang: 'zh-CN',
   title: '管宁川 John',
-  // description: '不可定义',
+  description: '管宁川 John 的个人网站。',
   themeConfig: {
     nav: [
       { text: '主页', link: '/zh/' },
       { text: '关于', link: '/zh/about/' },
     ],
 
-    // sidebar: [
-    //   {
-    //     text: '示例',
-    //     items: [
-    //       { text: 'Markdown 示例', link: '/zh/markdown-examples' },
-    //       { text: '运行时 API 示例', link: '/zh/api-examples' },
-    //     ],
-    //   },
-    // ],
-
     socialLinks: [
-      { icon:'bilibili', link: 'https://space.bilibili.com/8343970'},
+      { icon: 'bilibili', link: 'https://space.bilibili.com/8343970' },
       { icon: 'github', link: 'https://github.com/JohnGuan' },
       { icon: 'x', link: 'https://x.com/GuanNingchuan' },
     ],
@@ -32,11 +22,11 @@ export const zh = defineConfig({
 
     docFooter: {
       prev: '上一页',
-      next: '下一页'
+      next: '下一页',
     },
 
     outline: {
-      label: '页面导航'
+      label: '页面导航',
     },
 
     notFound: {
@@ -44,7 +34,7 @@ export const zh = defineConfig({
       quote:
         '但如果你不改变方向，并且继续寻找，你可能最终会到达你所前往的地方。',
       linkLabel: '前往首页',
-      linkText: '带我回首页'
+      linkText: '带我回首页',
     },
 
     langMenuLabel: '多语言',
