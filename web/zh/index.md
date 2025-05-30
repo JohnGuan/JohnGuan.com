@@ -9,7 +9,7 @@ hero:
   actions:
     - theme: brand
       text: 关于我
-      link: /zh/about
+      link: /zh/about/
     # - theme: alt
     #   text: API 示例
     #   link: /zh/api-examples
