@@ -2,6 +2,10 @@
 layout: false
 title: 管宁川
 titleTemplate: "John Guan"
+head:
+  - - meta
+    - name: baidu-site-verification
+      content: "codeva-S7I3HVwZbW"
 navbar: false
 sidebar: false
 aside: false
