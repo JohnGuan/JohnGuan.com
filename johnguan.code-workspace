@@ -59,7 +59,8 @@
         "scss",
         "pcss",
         "postcss"
-      ]
+      ],
+      "npm.packageManager": "bun"
   },
   "extensions": {
     "recommendations": [
